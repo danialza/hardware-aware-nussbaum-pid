@@ -1,0 +1,17 @@
+metric,value
+duration_s,299.9585470000
+mae_deg,1.8070269008
+rmse_deg,3.0715763315
+p95_deg,8.1975888012
+max_deg,15.4538216323
+min_abs_deg,0.0000230043
+zeta_start,0.8856930624
+zeta_end,1.0349094387
+zeta_growth,0.1492163763
+zeta_dot_mean,0.0004973882
+zeta_dot_p95,0.0105093022
+u_sat_ratio,0.1230555556
+z=1.0,62.833450
+z=1.2,never
+z=1.4,never
+z=pi/2,never

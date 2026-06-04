@@ -1,0 +1,35 @@
+{
+  "valid_trials": 7,
+  "best_by_score": {
+    "trial_number": 1,
+    "score": 14.689766130132169,
+    "mae_deg": 1.1246106504810165,
+    "p95_deg": 2.069504164255957,
+    "max_deg": 2.419761706952541,
+    "tail_p95_deg": 2.069504164255957,
+    "params": {
+      "fric_coulomb": 0.0002836437447784679,
+      "fric_vel_scale": 0.9414436162365929,
+      "max_control": 0.06307531475228263,
+      "zeta_leak": 0.02782231662495139,
+      "tail_kd": 0.06818501641332686
+    },
+    "csv_path": "/tmp/nussbaum_optuna_fric_p95_runs/optuna_t0001_r01.csv"
+  },
+  "best_by_p95": {
+    "trial_number": 1,
+    "score": 14.689766130132169,
+    "mae_deg": 1.1246106504810165,
+    "p95_deg": 2.069504164255957,
+    "max_deg": 2.419761706952541,
+    "tail_p95_deg": 2.069504164255957,
+    "params": {
+      "fric_coulomb": 0.0002836437447784679,
+      "fric_vel_scale": 0.9414436162365929,
+      "max_control": 0.06307531475228263,
+      "zeta_leak": 0.02782231662495139,
+      "tail_kd": 0.06818501641332686
+    },
+    "csv_path": "/tmp/nussbaum_optuna_fric_p95_runs/optuna_t0001_r01.csv"
+  }
+}
