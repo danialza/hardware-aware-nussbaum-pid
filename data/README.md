@@ -13,7 +13,7 @@ data/
 ├── optuna_trials/                    Headline Optuna campaigns (79-trial archive + sub-passes)
 ├── envelope_step_bandwidth/          Multi-envelope, step, and bandwidth-probe runs
 ├── run_commands/                     Verbatim shell commands used for the final runs
-└── controller_code/                  Python controller source (direct-Dynamixel runner + Optuna tuner)
+└── controller_code/                  Controller-code file names; Python bodies are not public
 ```
 
 ## Headline run (Table 4, Figure for 10°/0.05 Hz)
@@ -57,6 +57,8 @@ Headline 79-trial archive and supporting sub-passes:
 
 ## Controller code
 
+The following controller-code files are listed for manuscript context. Their Python implementation bodies are not included in the public copy. For full code access, please email Danial Zafaranchizadeh Moghaddam or Abolfazl Zaraki.
+
 - `controller_code/nussbaum_pid_mode0_direct_dxl.py` — direct-Dynamixel real-time runner used for every reported real-hardware trial.
 - `controller_code/nussbaum_direct_autotune_optuna.py` — wrapping Optuna driver that produced the archive in `optuna_trials/`.
 - `controller_code/paper_cnnpid_mode0_direct_dxl_step_disturb.py` — step + disturbance variant of the runner.
@@ -87,11 +89,11 @@ See top-level `LICENSE` (MIT for code/data; figures © authors).
 
 ---
 
-## Code access note
+## Full code access
 
-This public repository keeps the data layout, file names, and README descriptions visible for manuscript context. The Python implementation bodies have been removed from the public copy.
+This public repository keeps the data layout, file names, and README descriptions visible for manuscript context. Python implementation bodies are not included in the public copy.
 
-For access to the implementation code, reviewer material, or collaboration details, please email:
+For full code access, reviewer material, or collaboration details, please email:
 
 - Danial Zafaranchizadeh Moghaddam — `danial.za@outlook.com`
 - Abolfazl Zaraki — `a.zaraki@herts.ac.uk`

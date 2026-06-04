@@ -5,17 +5,17 @@ Companion code repository for the manuscript:
 > **Hardware-Aware Experimental Assessment of a Nussbaum-Function PID Controller on a Low-Cost Manipulator Joint Using Optuna-Guided Tuning**
 > Danial Zafaranchizadeh Moghaddam, Abolfazl Zaraki — University of Hertfordshire, 2026.
 
-This repo collects the **reproducibility material** that backs the claims of the paper:
+This repo collects the **public reproducibility material** that backs the claims of the paper:
 
 - the publication figures used in the article (`figures/`),
 - the publication tables (`tables/`),
-- the Python scripts that regenerate every figure from raw closed-loop CSV logs (`scripts/`).
+- the file names and documentation for the Python scripts used to regenerate the figures (`scripts/`).
 
 The manuscript text, LaTeX source, and the published PDF are **not** distributed here. The article, its DOI, and a direct PDF link are available from the project landing page:
 
 **Project page:** <https://danielz.co.uk/projects/hardware-aware-nussbaum-pid/>
 
-If you use the code, the figure-generation scripts, or the experimental methodology, please cite the manuscript above and link back to the project page.
+If you use the public figures, tables, or experimental methodology, please cite the manuscript above and link back to the project page. For full code access, please email the authors listed below.
 
 ---
 
@@ -64,7 +64,7 @@ python3 scripts/build_main_results_figures.py
 python3 scripts/build_control_architecture_diagram.py
 ```
 
-The raw closed-loop CSV logs, per-run metric tables (CSV + JSON), Optuna trial archives, controller source code, and run commands that the scripts consume are all released under `data/` (see `data/README.md`). The PDF / PNG / SVG figures already committed to `figures/` are the exact versions used in the published article and require no re-build.
+The raw closed-loop CSV logs, per-run metric tables (CSV + JSON), Optuna trial archives, file names for controller code, and run commands are listed under `data/` (see `data/README.md`). The PDF / PNG / SVG figures already committed to `figures/` are the exact versions used in the published article and require no re-build. Python implementation bodies are not included in the public copy.
 
 ---
 
@@ -82,7 +82,7 @@ Validated envelope:
 
 ## License
 
-The code and figure-generation scripts in this repository are released under the **MIT License** (see `LICENSE`). The publication figures themselves are © the authors; please cite the paper if you reuse them in your own work.
+The public repository materials are released under the **MIT License** where applicable (see `LICENSE`). The publication figures themselves are © the authors; please cite the paper if you reuse them in your own work. Full implementation code is available by request.
 
 ---
 
@@ -93,11 +93,11 @@ The code and figure-generation scripts in this repository are released under the
 
 ---
 
-## Code access note
+## Full code access
 
-This public repository keeps the project page, file names, figures, tables, and README descriptions visible for manuscript context. The Python implementation bodies have been removed from the public copy.
+This public repository keeps the project page, file names, figures, tables, and README descriptions visible for manuscript context. Python implementation bodies are not included in the public copy.
 
-For access to the implementation code, reviewer material, or collaboration details, please email:
+For full code access, reviewer material, or collaboration details, please email:
 
 - Danial Zafaranchizadeh Moghaddam — `danial.za@outlook.com`
 - Abolfazl Zaraki — `a.zaraki@herts.ac.uk`

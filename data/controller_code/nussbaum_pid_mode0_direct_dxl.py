@@ -1,7 +1,7 @@
-"""Controlled-access implementation placeholder.
+"""Code access placeholder.
 
-The Python implementation code for this preprint is not distributed in the
-public repository. For code access, reviewer material, or collaboration
+The Python implementation code for this preprint is not included in the
+public repository. For full code access, reviewer material, or collaboration
 enquiries, please contact:
 
 - Danial Zafaranchizadeh Moghaddam: danial.za@outlook.com

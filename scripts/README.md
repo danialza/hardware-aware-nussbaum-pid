@@ -18,11 +18,11 @@ All scripts write to `../figures/` and `../tables/` of the project root.
 
 ---
 
-## Code access note
+## Full code access
 
-This public repository keeps the script names and README descriptions visible for manuscript context. The Python implementation bodies have been removed from the public copy.
+This public repository keeps the script names and README descriptions visible for manuscript context. Python implementation bodies are not included in the public copy.
 
-For access to the implementation code, reviewer material, or collaboration details, please email:
+For full code access, reviewer material, or collaboration details, please email:
 
 - Danial Zafaranchizadeh Moghaddam — `danial.za@outlook.com`
 - Abolfazl Zaraki — `a.zaraki@herts.ac.uk`
